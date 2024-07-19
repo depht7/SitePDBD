@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tributo a Balatro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Um Guia para Balatro</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#jogabilidade">Jogabilidade</a></li>
+                <li><a href="#chefes">Chefes das Apostas</a></li>
+                <li><a href="#curingas">Curingas</a></li>
+                <li><a href="#edições dos curingas">Edições dos Curingas</a></li>
+                <li><a href="#Cartas">Cartas de Baralho</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tarô">Tarôs</a></li>
+                <li><a href="#planetas">Planetas</a></li>
+                <li><a href="#espectrais">Espectrais</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Apresentando Balatro!</h2>
+            <p>Um <I>Pokerbased DeckBuilder Roguelike </I>desenvolvido por apenas uma pessoa usando uma liguagem de programação criados por brasileiros, a linguagem Lua é inteiramente projetada, por uma equipe na PUC-Rio (Pontifícia Universidade Católica do Rio de Janeiro). Lua nasceu e cresceu no Tecgraf, o então Grupo de Tecnologia em Computação Gráfica da PUC-Rio. Atualmente, Lua é desenvolvida no laboratório LabLua do Departamento de Informática da PUC-Rio.</p>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre o Jogo</h2>
+        <p>Balatro é um jogo singleplayer de construção de baralhos (deckbuilding) com elementos de roguelike e referências às mãos de poker. Desenvolvido por <I>Localthunk</I> e publicado por Playstack, o jogo oferece uma experiência única ao unir estratégias de jogos de cartas com a imprevisibilidade e desafio típicos de jogos roguelike.</p>
+    </section>
+
+    <section id="jogabilidade">
+        <h2>Jogabilidade</h2>
+        <p>Em Balatro, o jogadore começa com um baralho pré-definido e tem o objetivo de superar a pontuação da aposta que se encontra nfrentam desafios variados. A cada partida, novas cartas podem ser encontradas, criando diferentes estratégias. As referências às mãos de poker adicionam uma camada extra de estratégia, exigindo que os jogadores pensem cuidadosamente sobre como usar suas cartas.
+        </p>
+    </section>
+
+    <section id="chefes">
+        <h2>Chefes das Apostas</h2>
+        <p>Apesar do "inimigo" do jogo ser uma quantidade de pontos a ser alcançada,  cada uma das 8 apostas para vencer o jogo possui um "Small Blind", "Big Blind" e <strong>"O CHEFE DA APOSTA"</strong>, que consiste nos pontos para vencer mais uma condição que o jogador deverá enfrentar para progredir para a próxima aposta. </p>
+        
+    </section>
+	<section id="curingas">
+        <h2>Curingas</h2>
+        <p> Para ajudar o jogador a escalar os pontos necessários, o jogo introduz os curingas, desde o tutorial somos introduzidos a "Jimbo" um simples curinga que te guia sobre o funcionamento das diversas mecânicas do jogo (que tentarei neste site abordar a maioria) e como elas se intercalam para o melhor potencial das mãos de poker que o jogador usar.</p>
+        
+    </section>
+	<section id="edições dos curingas">
+        <h2>Edições dos Curingas</h2>
+       	<p> Todo curinga existe em sua edição básica, fazendo apenas o que está no texto da carta, mas é possível acresentar edições de cartas aos curingas, as edições são: </p>
+		<p>Laminado: Fornece +50 fichas na somatória dos pontos.</p>
+		<p>Holográfico:fornece +10 multi quando se calcula os pontos do curingas.</p>
+		<p>Policromatico: fornece x1,5 multi quando se calcula os pontos do curingas.</p>
+		<p>Negativo: Concede +1 espaço de curinga(na pratica entra sem ocupar espaço)</p>
+        
+    </section>
+	<section id="Cartas">
+        <h2>Carta de Baralho</h2>
+        <p>As cartas de baralho são a base do deck, primeiro são calculadas as cartas que joga da mão, depois as cartas que se segura na mão, as cartas podem possuir apenas um aprimoramento por vez, podendo um substituir o outro, sendo estes:</p>
+		<p>Carta de Sorte: Concede 1/5 de chance de obter +20 Multi e 1/20 de conceder 20$ ao Pontuar. </p>
+		<p>Carta Multi: Concede +4 Multi ao pontuar.</p>
+		<p>Carta Bonus: Concede +30 Fichas ao pontuar.</p>
+		<p>Carta Curinga: Concede a carta a habilidade de pertencer a todos os naipes.</p>
+		<p>Carta de Ferro: Concede x1,5 Multi quando segurado na mão.</p>
+		<p>Carta de Vidro: Concede x2 multi ao pontuar, possui 1/4 chances de "quebrar" e se auto destruir.</p>
+		<p>Carta de Ouro: Concede +3$ se segurado da mão ao final da rodada se segurado na mão.</p>
+		<p>Carta de Pedra: A carta perde seu ranque e naipe para conceder 50 fichas e sempre conta na pontuação.</p>
+		</p>
+        
+    </section>
+	<section id="tarô">
+        <h2>Tarôs</h2>
+        	<p>O jogo introduz como consumivel o sistema de carta de tarô, onde cada carta de tarô pode ser usada para modificar alguma regra deste jogo, são elas:
+		<p>O Tolo: Recebe a última carta de Tarô ou Planeta usada.</p>
+		<p>O Mago: Converte até duas cartas em cartas da sorte.</p>
+		<p>Alta Sacerdotisa: receba até duas cartas de Planeta.</p>
+		<p>A Impertriz: Converte até duas cartas em Cartas Multi.</p>
+		<p>O Imperador: Receba até duas Cartas de Tarô.</p> 
+		<p>O Hierofante: Converta até duas cartas em Cartas Bônus.</p>
+		<p>Os Amantes: Converta uma carta em uma Carta Curinga.</p>
+		<p>A Carruagem: Converta uma carta em uma Carta de Ferro.</p>
+		<p>Justiça: Coverta uma carta em uma Carta de Vidro.</p>
+		<p>O Eremita: Duplique seu dinheiro (no máximo 20$).</p>
+		<p>A Roda da Fortuna: Possui 1/4 chances de conceder Laminado, Holográfico ou Policromático.</p>
+		<p>Força: Aumente o ranque de até duas cartas.</p>
+		<p>O Enforcado: Destrua até duas cartas na sua mão.</p>
+		<p>Morte: Transforme a carta da esquerda na carta da direita.</p>
+		<p>A Temperança: Dá o valor de venda de todos do Curingas (no maxímo 50$).</p>
+		<p>O Demônio: Transforme uma carta em uma Carta de Ouro.</p>
+		<p>A Torre: Transforme uma carta em uma Carta de Pedra.</p>
+		<p>A Estrela: Coverta até três cartas para o naipe de Ouros.</p>
+		<p>A Lua: Converta até três cartas para o naipe de Paus.</p>
+		<p>O Sol: Converta até três cartas para o naipe de Copas.</p>
+		<p>Julgamento: Receba um Curinga aleatório.</p>
+		<p>O Mundo: Converta até três cartas para o naipe de Espadas.</p>
+
+		</p>
+        
+    </section>
+   
+	<section id="planetas">
+        <h2>Planetas</h2>
+        <p>Balatro apresenta uma forma de aprimorar o valor base das 9 diferentes mãos de poker, além das três outras mãos que o jogo inventou devido a possibilidade de modificar as cartas e conseguir jogar cartas com o mesmo ranque e/ou naipe ao mesmo tempo. Assim sendo, cada mão de poker possível neste jogo é representado por um planeta, e cada carta de planeta usada aprimora a base da mão que representa.</p>
+		<table border="1">
+   			<thead>
+   				<tr>
+      				<th>Planeta</th>
+       				<th>+Fichas</th>
+       				<th>+Multi</th>
+					<th>Mão que Aprimora</th>
+   				</tr>
+   			</thead>
+   			<tbody>
+   				<tr>
+       				<td>Mercúrio</td>
+       				<td>+15fichas</td>
+       				<td>+1Multi</td>
+					<td>Par</td>
+   				</tr>
+   				<tr>
+      				<td>Venus</td>
+       				<td>+20fichas</td>
+       				<td>+2Multi</td>
+					<td>Trinca</td>
+   				</tr>
+				<tr>
+       				<td>Terra</td>
+       				<td>+25fichas</td>
+       				<td>+2Multi</td>
+					<td>Full House</td>
+   				</tr>
+   				<tr>
+      				<td>Marte</td>
+       				<td>+30fichas</td>
+       				<td>+3Multi</td>
+					<td>Quadra</td>
+   				</tr>
+				<tr>
+       				<td>Jupiter</td>
+       				<td>+15fichas</td>
+       				<td>+2Multi</td>
+					<td>Flush</td>
+   				</tr>
+   				<tr>
+      				<td>Saturno</td>
+       				<td>+30fichas</td>
+       				<td>+3Multi</td>
+					<td>Sequência</td>
+   				</tr>
+				<tr>
+       				<td>Urano</td>
+       				<td>+20fichas</td>
+       				<td>+1Multi</td>
+					<td>Dois Pares</td>
+   				</tr>
+   				<tr>
+      				<td>Netuno</td>
+       				<td>+40fichas</td>
+       				<td>+4Multi</td>
+					<td>Straight Flush</td>
+   				</tr>
+				<tr>
+       				<td>Plutão</td>
+       				<td>+15fichas</td>
+       				<td>+1Multi</td>
+					<td>Carta Alta</td>
+   				</tr>
+   				<tr> 
+      				<td>Eres</td>
+       				<td>+50fichas</td>
+       				<td>+3Multi</td>
+					<td>Flush Five</td>
+   				</tr>
+				<tr>
+      				<td>Ceres</td>
+       				<td>+40fichas</td>
+       				<td>+4Multi</td>
+					<td>Flush House</td>
+   				</tr>
+				<tr>
+      				<td>Planeta X</td>
+       				<td>+35fichas</td>
+       				<td>+3Multi</td>
+					<td>Five of a Kind</td>
+   				</tr>
+   			</tbody>
+		</table>
+        
+    </section>
+	
+	<section id="espectrais">
+        <h2>Espectrais</h2>
+        <p></p>
+        
+    </section>
+	
+    <script src="scripts.js"></script>
+
+    <footer id="contato">
+        <h2>Paulo Henrique Lopes Silva PDBD0081</h2>
+    </footer>
+</body>
+</html>
